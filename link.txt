@@ -1,0 +1,16 @@
+let a = document.querySelectorAll(".event-logo img"); // 
+const b = [...a];
+b.map(h => h.src); 
+
+let a = document.querySelectorAll(".image-wrap img")
+const b =[...a]
+b.map(h=>h.src)
+
+let a = document.querySelectorAll(".event-wrapper")
+const b =[...a]
+b.map(h=>h.innerText)
+
+//FRONT PAGE
+let a = document.querySelectorAll(".sc-hKMtZM.sc-gKXOVf.lblrho")
+const b =[...a]
+b.map(h=>h.innerText)
