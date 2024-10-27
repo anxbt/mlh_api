@@ -73,3 +73,11 @@ async function fetchEvents() {
   }
 }
 
+// Lambda handler
+exports.handler = async (event) => {
+  await fetchEvents();
+  return {
+    statusCode: 200,
+    body: JSON.stringify('Lambda function executed successfully!'),
+  };
+};
